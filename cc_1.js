@@ -52,4 +52,12 @@ console.log("Account Balance After Interest (4%): $" + accountBalance)
 accountBalance /= 2
 console.log("Account Balance After Divorce: $" + accountBalance)
 
+//TASK 4: STRING DATA TYPE - GENERATING PERSONALIZED CUSTOMER MESSAGES
+
+//Create variable to store customer's name as a string
+let customerName = "Customer Name"
+
+//Logging personalized greeting to the console
+console.log("Hi " + customerName + "! Welcome to our store.")
+
 
