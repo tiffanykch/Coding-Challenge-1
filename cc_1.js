@@ -60,4 +60,21 @@ let customerName = "Customer Name"
 //Logging personalized greeting to the console
 console.log("Hi " + customerName + "! Welcome to our store.")
 
+//TASK 5: BOOLEAN DATA TYPE - ACCESS CONTROL FOR EMPLOYEES
+
+//Create boolean to indicate user login status
+let isLoggedIn = true
+
+//Display access conditions to the console
+console.log("Successful Login:", isLoggedIn)
+
+//Utilizing IsActive to perform more logical tests
+
+//Employee active AND not logged in
+let needsPassword = isActive && !isLoggedIn
+console.log("Needs Password:", needsPassword)
+
+//Employee not active OR not logged in
+let needsHelp = !isActive || !isLoggedIn
+console.log("Account Needs Help:", needsHelp)
 
