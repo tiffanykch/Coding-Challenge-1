@@ -30,3 +30,26 @@ console.log("Product Name:", productName, "- Type:", typeof productName)
 console.log("Product Price: $" + productPrice, "- Type:", typeof productPrice)
 console.log("Product Availability:", isAvailable, "- Type:", typeof isAvailable)
 
+//TASK 3: NUMBER DATA TYPE - FINANCIAL TRANSACTIONS
+
+//Create variable to record intial balance
+let accountBalance = 13578
+console.log("Initial Account Balance: $" + accountBalance)
+
+//Deposit: $4000 Scholarship Disbursed
+accountBalance += 4000
+console.log("Account Balance After Deposit: $" + accountBalance)
+
+//Withdrawal: $900 Rent Payment
+accountBalance -= 900
+console.log("Account Balance After Payment: $" + accountBalance)
+
+//Interest: Monthly Interest Payment
+accountBalance *= 1.04
+console.log("Account Balance After Interest (4%): $" + accountBalance)
+
+//Division: Got Divorced (50/50 split)
+accountBalance /= 2
+console.log("Account Balance After Divorce: $" + accountBalance)
+
+
